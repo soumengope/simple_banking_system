@@ -1,0 +1,89 @@
+.headerDiv{
+    margin-top:20px;
+    text-align:center;
+}
+.headerContent{
+    font-size:30px;
+    font-weight:700;
+    padding-bottom:10px;
+}
+.bankHistory_main{
+    text-align:center;
+    margin:0 auto;
+    width:80%;
+    height:150px;
+    background:rgb(213, 224, 163)
+}
+
+.bankHistory_content{
+    font-size:20px;
+    font-weight:500;
+    line-height:25px;
+    margin:20px;
+    padding:5px;
+}
+
+.overview_main{
+    margin-top:40px;
+    text-align:center;
+}
+.overview_header{
+    font-size:25px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.overview_sections{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+    width:90%;
+    margin:0 auto;
+}
+.overview_section4,.overview_section3,.overview_section2,.overview_section1{
+    text-align:center;
+    width:100%;
+    padding:10px;
+    font-size:19px;
+    align-items: center;
+    background:rgb(213, 224, 163);
+}
+.overview_section1{
+    padding-top:20px;
+}
+.overview_section4{
+    margin-top:20px;
+}
+.overview_section1{
+    margin-top:20px;
+}
+.overview_content_header{
+    font-size:22px;
+    font-weight:600;
+    padding-bottom:15px;
+}
+@media screen and (min-width:100px) and (max-width:900px){
+    .headerDiv{
+        margin:0;
+    }
+    .bankHistory_main{
+        width:90%;
+        height:auto;
+    }
+    .overview_sections{
+        margin-top:20px;
+        display:grid;
+        gap:10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .overview_main{
+        margin-top:20px;
+    }
+    .overview_section1{
+        padding-top:20px;
+        margin-top:0px;
+    }
+    .overview_section4{
+        margin-top:0px;
+        margin-bottom:20px;
+    }
+}

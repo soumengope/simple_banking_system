@@ -1,0 +1,61 @@
+.tnxHeader{
+    font-size:25px;
+    font-weight:600;
+    position:relative;
+    left:30px;
+    margin-bottom:30px;
+}
+.chooseOpt{
+    margin: 0 auto;
+    text-align:center;
+    margin-top:50px;
+}
+.opt{
+    width:25%;
+    height:35px;
+}
+.money{
+    margin:0 auto;
+    text-align:center;
+}
+.money input{
+    width:25%;
+    height:35px;
+}
+.btn{
+    margin:0 auto;
+    text-align:center;
+}
+.btn button{
+    width:10%;
+    height:35px;
+    font-size:20px;
+    cursor:pointer;
+}
+@media screen and (min-width:100px) and (max-width:900px) {
+    .tnxHeader{
+        font-size:20px;
+        font-weight:600;
+        position:fixed;
+        left:0px;
+        text-align:center;
+        padding-bottom:30px;
+    }
+    .mobDiv{
+        margin-top:150px;
+    }
+    .opt{
+        width:80%;
+        height:40px;
+        border:1px solid black;
+    }
+    .money input{
+        width:80%;
+        height:40px;
+        border:1px solid black;
+    }
+    .btn button{
+        width:50%;
+        height:40px;
+    }
+}

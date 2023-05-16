@@ -1,0 +1,83 @@
+.mainLoginDiv{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+    text-align:center;
+}
+
+.login{
+    width:95%;
+    height:300px;
+    margin-left:10px;
+}
+.loginHeader{
+    font-size:25px;
+    margin-bottom:5px;
+    font-weight:600;
+}
+
+.users{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    width:95%;
+    text-align:left;
+}
+.user_header{
+    font-size:25px;
+    padding-bottom:10px;
+    font-weight:600;
+}
+.login input{
+    width:80%;
+    height:40px;
+    margin-top:25px;
+    margin-bottom:25px;
+    font-size:18px;
+}
+.login button{
+    width:30%;
+    height:40px;
+    margin-top:25px;
+    margin-bottom:20px;
+    cursor:pointer;
+    font-size:20px;
+}
+
+.users_list{
+    padding-top:16px;
+    line-height:30px;
+    margin-bottom:20px;
+    height:130px;
+    font-size:20px;
+    padding-left:10%;
+    background:rgb(213, 224, 163);
+}
+
+.loggedSuccess{
+    margin-top:20px;
+    text-align:center;
+    font-size:20px;
+    margin:0 auto;
+    font-weight:600;
+}
+
+@media screen and (min-width:100px) and (max-width:900px) {
+    .mainLoginDiv{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .login input{
+        width:80%;
+        border:1px solid black;
+    }
+    .users{
+        grid-template-columns:repeat(1,1fr);
+        margin:0 auto;
+        gap:15px;
+        margin-bottom:20px;
+    }
+    .users_list{
+        margin-bottom:0px;
+    }
+    
+}

@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "64434a157c84c0ffe37f0a24"
+  },
+  "name": "soumen gope",
+  "bank": "sbi",
+  "acNo": {
+    "$numberLong": "80160000001"
+  },
+  "balance": 53000
+},{
+  "_id": {
+    "$oid": "64434ddd7be0807a95372a36"
+  },
+  "name": "james curl",
+  "bank": "hdfc",
+  "acNo": {
+    "$numberLong": "80160000002"
+  },
+  "balance": 65100
+},{
+  "_id": {
+    "$oid": "644350224873ec94b4cde04e"
+  },
+  "name": "collin james",
+  "bank": "boa",
+  "acNo": {
+    "$numberLong": "80160000003"
+  },
+  "balance": 48500
+},{
+  "_id": {
+    "$oid": "644350224873ec94b4cde04f"
+  },
+  "name": "jimmy o yang",
+  "bank": "boc",
+  "acNo": {
+    "$numberLong": "80160000004"
+  },
+  "balance": 76060
+},{
+  "_id": {
+    "$oid": "644350224873ec94b4cde050"
+  },
+  "name": "bipin roy",
+  "bank": "hsbs",
+  "acNo": {
+    "$numberLong": "80160000005"
+  },
+  "balance": 69340
+},{
+  "_id": {
+    "$oid": "644350224873ec94b4cde051"
+  },
+  "name": "mahhamad orfan",
+  "bank": "icici",
+  "acNo": {
+    "$numberLong": "80160000006"
+  },
+  "balance": 70000
+},{
+  "_id": {
+    "$oid": "644350224873ec94b4cde052"
+  },
+  "name": "jessica watson",
+  "bank": "citibank",
+  "acNo": {
+    "$numberLong": "80160000007"
+  },
+  "balance": 62000
+},{
+  "_id": {
+    "$oid": "6443509ca75eb74ee62ba095"
+  },
+  "name": "peter mckinnon",
+  "bank": "rbc",
+  "acNo": {
+    "$numberLong": "80160000008"
+  },
+  "balance": 80000
+}]

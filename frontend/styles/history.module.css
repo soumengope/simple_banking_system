@@ -1,0 +1,33 @@
+.mainDiv{
+    margin:0;
+    padding:0;
+    width:100%;
+    margin:0 auto;
+    height:40px;
+    text-align:center;
+}
+.myDiv{
+    margin-top:10px; 
+    margin-bottom:10px;
+    padding:5px;
+    font-size:20px;
+}
+.histHeader{
+    font-size:25px;
+    font-weight:700;
+    text-align:center;
+    padding-bottom:20px;
+}
+@media screen and (min-width:100px) and (max-width:900px) {
+    .mainDiv{
+        width:95%;
+        position:relative;
+        left:0;
+        text-align:center;
+    }
+    .myDiv{
+        margin-top:30px; 
+        font-size:20px;
+        padding-bottom:20px;
+    }
+}
